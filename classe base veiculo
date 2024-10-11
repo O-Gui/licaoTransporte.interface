@@ -1,0 +1,13 @@
+package br.com.gui.transporteimpl;
+
+import br.com.gui.inter.transporte;
+
+public class veiculo implements transporte {
+
+	@Override
+	public void mover() {
+	
+	}
+
+	
+}
