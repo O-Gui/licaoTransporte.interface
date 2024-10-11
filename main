@@ -1,0 +1,21 @@
+package br.com.gui.main;
+
+import br.com.gui.transporteimpl.bicicleta;
+import br.com.gui.transporteimpl.carro;
+import br.com.gui.transporteimpl.onibus;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		carro objcarro = new carro();
+		bicicleta objbicicleta = new bicicleta();
+		onibus objonibus = new onibus();
+		
+		objcarro.mover();
+        objbicicleta.mover();
+        objonibus.mover();
+		
+	}
+
+}
