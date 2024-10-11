@@ -1,0 +1,18 @@
+package br.com.gui.transporteimpl;
+
+import br.com.gui.inter.transporte;
+
+public class onibus extends veiculo {
+
+	@Override
+	public void mover() {
+		System.out.println("O onibus esta se movendo pela rota urbana");
+		
+	}
+
+
+		
+	
+		
+	}
+
