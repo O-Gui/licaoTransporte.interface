@@ -1,0 +1,15 @@
+package br.com.gui.transporteimpl;
+
+import br.com.gui.inter.transporte;
+
+public class carro extends veiculo {
+
+	@Override
+	public void mover() {
+		System.out.println("O carro esta se movendo pelas estradas");
+		
+	}	
+	
+	
+
+}
