@@ -1,0 +1,8 @@
+package br.com.gui.inter;
+
+public interface transporte {
+	
+	
+	public void mover();
+
+}
