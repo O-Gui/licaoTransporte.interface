@@ -1,0 +1,18 @@
+package br.com.gui.transporteimpl;
+
+import br.com.gui.inter.transporte;
+
+public class bicicleta extends veiculo  {
+
+	@Override
+	public void mover() {
+		System.out.println("a bicileta esta sendo pedalada");
+		
+	}
+
+	
+	
+	
+	
+
+}
